@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JorgeDLeon/react-Gitexport-app/static/css/main.b5ea4cd1.css",
+    "main.js": "/JorgeDLeon/react-Gitexport-app/static/js/main.627cfe87.js",
+    "index.html": "/JorgeDLeon/react-Gitexport-app/index.html",
+    "main.b5ea4cd1.css.map": "/JorgeDLeon/react-Gitexport-app/static/css/main.b5ea4cd1.css.map",
+    "main.627cfe87.js.map": "/JorgeDLeon/react-Gitexport-app/static/js/main.627cfe87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5ea4cd1.css",
+    "static/js/main.627cfe87.js"
+  ]
+}

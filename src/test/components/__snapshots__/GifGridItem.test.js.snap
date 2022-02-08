@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas con <GifExpertApp /> Debe de mostrar los componentes correctamente 1`] = `
+<div
+  className="card animate__animated animate__fadeIn"
+>
+  <img
+    alt="Esto es el titulo"
+    src="https://localhost/imagen.png"
+  />
+  <p>
+    Esto es el titulo
+  </p>
+</div>
+`;

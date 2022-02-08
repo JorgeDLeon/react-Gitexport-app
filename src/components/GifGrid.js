@@ -17,7 +17,6 @@ const GifGrid = ({categoria}) => {
     <>
         <h3 className='animate__animated animate__slideInDown'>{categoria}</h3>
         <div className='card-grid'>
-
               {
                 imagen.map( img => (
                     <GifGridItem 
@@ -26,7 +25,6 @@ const GifGrid = ({categoria}) => {
                     />
                 ))
               }
-          
         </div>
     </>
   )

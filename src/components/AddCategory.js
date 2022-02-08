@@ -4,13 +4,14 @@ import PropTypes from 'prop-types';
 
 function AddCategory({setCategorias}) {
 
-    const [inputValue, setInputValue] = useState('Escribe aqui');
+    const [inputValue, setInputValue] = useState('');
 
-    const handleInputChange = (e) => setInputValue(e.target.value);
+    const handleInputChange = (e) => {setInputValue(e.target.value)    };
 
 
     const handleSubmit = (e) =>{
         e.preventDefault();
+        console.log('Handle sumit', inputValue);
 
         if(inputValue.trim().length > 2){
             setCategorias(cats => [inputValue, ...cats]);
@@ -20,6 +21,7 @@ function AddCategory({setCategorias}) {
 
   return (
         <form onSubmit={ handleSubmit } >
+            <p>{inputValue}</p>
             <input
                 type="text" 
                 value = {inputValue}

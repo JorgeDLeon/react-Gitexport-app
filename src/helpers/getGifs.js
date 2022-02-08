@@ -11,6 +11,6 @@ export const getGifs = async(categoria) =>{
             title: img.title,
             url: img.images?.downsized_large.url
         }
-    })
+    });
      return gifs;
 }
